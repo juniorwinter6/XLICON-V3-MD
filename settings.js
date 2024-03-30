@@ -41,11 +41,11 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //owmner v card
 //________________________________________________________________________________________________________
-global.ytname = process.env.YT_NAME || "YT: S4 Salman YT" //ur yt chanel name
+global.ytname = process.env.YT_NAME || "Instagram: https://www.instagram.com/juniorwinter6?igsh=MWFqOHh3NmY1c3N6OQ==" //ur yt chanel name
 //________________________________________________________________________________________________________
-global.socialm = process.env.MEDIA || "GitHub: salmanytofficial" //ur github or insta name
+global.socialm = process.env.MEDIA || "Facebook: https://www.facebook.com/juniorwinter6?mibextid=ZbWKwL" //ur github or insta name
 //________________________________________________________________________________________________________
-global.location = process.env.GL_INFO || "Space " //ur location
+global.location = process.env.GL_INFO || "Space" //ur location
 //________________________________________________________________________________________________________
 
 //new
@@ -56,7 +56,7 @@ global.ownernumber = process.env.SUDO || '919339460559' //ur owner number
 //________________________________________________________________________________________________________
 global.ownername = process.env.SUDO_NAME || 'Rise' //ur owner name
 //________________________________________________________________________________________________________
-global.websitex = process.env.YT_LINK || "https://youtube.com/@s4salmanyt"
+global.websitex = process.env.YT_LINK || "https://chat.whatsapp.com/LHWGPUZkUKmLbGFXMXxRJO"
 //________________________________________________________________________________________________________
 global.wagc = process.env.GL_PUSH || "https://chat.whatsapp.com/LHWGPUZkUKmLbGFXMXxRJO"
 //________________________________________________________________________________________________________
@@ -91,7 +91,7 @@ global.antiforeignnumber = process.env.AUTO_BLOCK || '92' //set anti foreign num
 //________________________________________________________________________________________________________
 global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
 //________________________________________________________________________________________________________
-global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
+global.anticall = process.env.GL_NOCALL || true //bot blocks user when called
 //________________________________________________________________________________________________________
 global.autoswview = process.env.AUTO_STATUS_SEEN || true //auto status/story view
 //________________________________________________________________________________________________________
