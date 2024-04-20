@@ -41,11 +41,11 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //owmner v card
 //________________________________________________________________________________________________________
-global.ytname = process.env.YT_NAME || "Instagram: https://www.instagram.com/juniorwinter6?igsh=MWFqOHh3NmY1c3N6OQ==" //ur yt chanel name
+global.ytname = process.env.YT_NAME || "Instagram: https://www.instagram.com/tanixwinter?igsh=MWFqOHh3NmY1c3N6OQ==" //ur yt chanel name
 //________________________________________________________________________________________________________
-global.socialm = process.env.MEDIA || "Facebook: https://www.facebook.com/juniorwinter6?mibextid=ZbWKwL" //ur github or insta name
+global.socialm = process.env.MEDIA || "Facebook: https://www.facebook.com/tanixwinter?mibextid=ZbWKwL" //ur github or insta name
 //________________________________________________________________________________________________________
-global.location = process.env.GL_INFO || "Space" //ur location
+global.location = process.env.GL_INFO || "Mumbai, India" //ur location
 //________________________________________________________________________________________________________
 
 //new
